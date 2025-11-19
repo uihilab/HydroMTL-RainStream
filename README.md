@@ -1,5 +1,14 @@
-### Unified Cross-Modal Learning for Hydrological Processes Using Multi-Task Transformer Framework
+## Unified Cross-Modal Learning for Hydrological Processes Using Multi-Task Transformer Framework
 This repository contains the code for Unified Cross-Modal Learning for Hydrological Processes Using Multi-Task Transformer Framework paper [https://eartharxiv.org/repository/view/10694/].
 
 Accurate hydrological prediction is essential for effective flood forecasting, water management, and climate resilience planning. However, most deep learning studies in hydrology rely on single-task models that address variables such as rainfall or streamflow independently, limiting opportunities for shared learning across related processes. Our paper introduces a deep learning model that jointly performs spatial rainfall enhancement and 24-hour horizon streamflow prediction within a single model. The proposed framework employs a shared Transformer encoder and task-specific decoders to integrate spatial and temporal hydrometeorological information, enabling joint optimization across heterogeneous data modalities. We evaluate both multi-task and individually trained versions of the model, benchmarking their performance against established baselines including Transformer-based streamflow predictors and CNN-based rainfall models. Results demonstrate that the unified model performs both tasks concurrently without loss of accuracy and, in some cases, achieves more stable temporal dynamics in long-horizon forecasts. This study contributes to the growing field of multi-task learning in hydrology by illustrating the feasibility of cross-modal, process-aware architectures that integrate rainfall and streamflow processes under a unified computational framework. We believe this work will be of strong interest to readers focused on hydrological modeling, environmental data science, and the application of AI to coupled Earth system prediction. The paper offers both methodological and conceptual advances toward scalable, multi-objective hydrological forecasting systems that can jointly represent multiple components of the water cycle.
 
+### Download the Dataset
+The files that we used in training codes can be downloaded from [here](https://tulane.box.com/s/npj2ah7tw40y3536m5lef9f5dgw8wu8o).
+
+### Citation
+Demiray, B.Z. and Demir, I., 2025. Unified Cross-Modal Learning for Hydrological Processes Using Multi-Task Transformer Framework.
+
+### Acknowledgements
+This project is developed by the University of Iowa Hydroinformatics Lab (UIHI Lab):
+https://hydroinformatics.uiowa.edu/.
